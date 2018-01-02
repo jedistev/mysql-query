@@ -1,0 +1,1 @@
+SELECT amount_description, SUM(amount) AS`amount_sum` FROM settlements WHERE amount_description="shippingChargeback"

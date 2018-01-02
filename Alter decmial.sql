@@ -1,0 +1,1 @@
+ALTER TABLE `settlements` CHANGE `amount` `amount` DECIMAL(13,2) UNSIGNED NOT NULL;

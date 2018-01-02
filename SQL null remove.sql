@@ -1,0 +1,1 @@
+Select total_amount, Sum(amount) AS match_amount_sum from settlements

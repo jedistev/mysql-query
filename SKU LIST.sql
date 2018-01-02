@@ -1,0 +1,1 @@
+select * FROM tbl_list_sku

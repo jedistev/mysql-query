@@ -1,0 +1,1 @@
+SELECT DISTINCT settlement_id, transaction_type , sum(amount) AS 'Each_group_Amount' FROM settlements WHERE transaction_type = 'order'  Group By settlement_id
